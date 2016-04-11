@@ -1,4 +1,4 @@
-INFO 344 Problem Assignment 1: NBA Stats Search
+###INFO 344 Programming Assignment 1 Repository
 
 ##### AWS
 > http://ec2-52-24-135-255.us-west-2.compute.amazonaws.com/pa1/
