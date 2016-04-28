@@ -7,9 +7,9 @@
 
 
 ##### Programming Assignment 2
->AWS:
+>Azure: lisally.cloudapp.net
 <br />
->GitHub:
+>GitHub: https://github.com/lisally/INFO344/tree/master/PA2
 
 ##### Programming Assignment 2
 >AWS:
