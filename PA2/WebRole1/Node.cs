@@ -8,12 +8,13 @@ namespace WebRole1
 {
     public class Node
     {
-        public Dictionary<char, Node> dictionary { get; private set; }
+        public Dictionary<char, Node> dictionary { get; set; }
+
         public bool eow { get; set; }
 
         public Node()
         {
-            this.dictionary = new Dictionary<char, Node>();
+            this.dictionary = null;
             this.eow = false;
         }
     }

@@ -69,3 +69,4 @@ C:\Users\iGuest\Desktop\query-suggestion\WebRole1\bin\zh-Hans\System.Spatial.res
 C:\Users\iGuest\Desktop\query-suggestion\WebRole1\bin\zh-Hant\System.Spatial.resources.dll
 C:\Users\iGuest\Desktop\query-suggestion\WebRole1\obj\Debug\WebRole1.dll
 C:\Users\iGuest\Desktop\query-suggestion\WebRole1\obj\Debug\WebRole1.pdb
+C:\Users\iGuest\Desktop\query-suggestion\WebRole1\obj\Debug\WebRole1.csprojResolveAssemblyReference.cache

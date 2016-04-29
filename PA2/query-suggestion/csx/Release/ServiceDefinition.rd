@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<serviceModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="query_suggestion" generation="1" functional="0" release="0" Id="23be4b88-eb9a-4f67-9521-c57421733e23" dslVersion="1.2.0.0" xmlns="http://schemas.microsoft.com/dsltools/RDSM">
+<serviceModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="query_suggestion" generation="1" functional="0" release="0" Id="8792ae23-3717-45e4-bf3a-d0e035806bd1" dslVersion="1.2.0.0" xmlns="http://schemas.microsoft.com/dsltools/RDSM">
   <groups>
     <group name="query_suggestionGroup" generation="1" functional="0" release="0">
       <componentports>
@@ -70,9 +70,9 @@
     </group>
   </groups>
   <implements>
-    <implementation Id="b6367c64-6e62-4000-989e-ca251aed1d1d" ref="Microsoft.RedDog.Contract\ServiceContract\query_suggestionContract@ServiceDefinition">
+    <implementation Id="bfd38508-4bb0-4388-ac4c-9712d14dd575" ref="Microsoft.RedDog.Contract\ServiceContract\query_suggestionContract@ServiceDefinition">
       <interfacereferences>
-        <interfaceReference Id="4b7a3277-d135-4f92-ac44-765b6d13fa2e" ref="Microsoft.RedDog.Contract\Interface\WebRole1:Endpoint1@ServiceDefinition">
+        <interfaceReference Id="a6a06a33-b747-40a6-a45a-8c4db21f4f49" ref="Microsoft.RedDog.Contract\Interface\WebRole1:Endpoint1@ServiceDefinition">
           <inPort>
             <inPortMoniker name="/query_suggestion/query_suggestionGroup/WebRole1:Endpoint1" />
           </inPort>

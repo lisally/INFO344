@@ -3,6 +3,10 @@
     font-size: 16px;
 }
 
+h1 {
+    margin-top: 250px;
+}
+
 div {
     text-align: center;
 }
@@ -14,6 +18,11 @@ div {
     border-width: 1px;
     border-color: black;
 }
+
+    #results p:hover {
+        background-color: lightgray;
+    }
+
 
 input[type="text"] {
     height: 30px;

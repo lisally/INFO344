@@ -11,7 +11,7 @@
             data: JSON.stringify({ search: userSearch }),
             contentType: "application/json; charset=utf-8",
             success: function (result) {
-                console.log("success!");
+                $("#results").empty();
                 var resultArray = JSON.parse(result.d);
                 displayResults(resultArray, userSearch);
             }

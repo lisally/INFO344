@@ -23997,7 +23997,7 @@
             <param name="expectedItemType">The type reference of the expected item type or null if no expected item type exists.</param>
             <param name="listener">If not null, the writer will notify the implementer of the interface of relevant state changes in the writer.</param>
         </member>
-        <member name="M:Microsoft.Data.OData.JsonLight.ODataJsonLightCollectionWriter.VerifyNotDisposed">
+        <member name="M8Microsoft.Data.OData.JsonLight.ODataJsonLightCollectionWriter.VerifyNotDisposed">
             <summary>
             Check if the object has been disposed; called from all public API methods. Throws an ObjectDisposedException if the object
             has already been disposed.

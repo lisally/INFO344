@@ -27,12 +27,6 @@
       <Content destination=".\">
         <SourceDirectory path="C:\Users\iGuest\Desktop\query-suggestion\query-suggestion\rcf\Debug\WebRole1Content\" />
       </Content>
-      <Content destination=".\">
-        <SourceDirectory path="C:\Users\iGuest\Desktop\query-suggestion\query-suggestion\ecf\WebRole1Content\" />
-      </Content>
     </Contents>
-    <Imports>
-      <Import moduleName="Diagnostics" />
-    </Imports>
   </WebRole>
 </ServiceDefinition>

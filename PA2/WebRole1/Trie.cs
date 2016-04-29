@@ -25,6 +25,11 @@ namespace WebRole1
             // Loops through title to add characters into appropriate dictionaries
             for (int i = 0; i < title.Length; i++)
             {
+                if (temp.dictionary == null)
+                {
+                    temp.dictionary = new Dictionary<char, Node>();
+                }
+
                 if (!temp.dictionary.ContainsKey(title[i]))
                 {
                     temp.dictionary.Add(title[i], new Node());
@@ -90,12 +95,19 @@ namespace WebRole1
 
                 /* Adds character to result and calls recursive method to add 
                 more characters until result is a leaf node */
-                foreach (var dictionary in temp.dictionary)
+                if (temp.dictionary != null)
                 {
-                    result += dictionary.Key;
-                    Node newTemp = dictionary.Value;
-                    this.SearchForWords(newTemp, result, searchResults);
-                    result = result.Substring(0, result.Length - 1);
+                    foreach (var dictionary in temp.dictionary)
+                    {
+                        if (searchResults.Count >= 10)
+                        {
+                            break;
+                        }
+                        result += dictionary.Key;
+                        Node newTemp = dictionary.Value;
+                        this.SearchForWords(newTemp, result, searchResults);
+                        result = result.Substring(0, result.Length - 1);
+                    }
                 }
             }
             return searchResults;
