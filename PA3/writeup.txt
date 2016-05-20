@@ -1,0 +1,16 @@
+[40pts] Dashboard with relevant data & functionality
+[30pts] Worker role to crawl websites for URL, title, date and store to Table storage
+[20pts] Code written in C# – C# best practices!
+[10pts] Proper use of worker roles, table and queue storage on Azure
+
+-----
+
+For this assignment, I used Azure Cloud Services and Storage to create the CNN and Bleacherreport Web Crawler. To do this, I utilized the Web Role and Worker Role of the cloud service application.
+
+The Web Role is used to send commands to the Worker Role. This is done by adding messages to appropriate queues for the Worker Role to read. For example, the Web Role controls when the Worker Role starts and stops by adding start and stop messages to the status queue . Also, it sends the robot.txt message for the Worker Role to read. Furthermore, the Web Role contains the various Web Methods used to display information on the dashboard.
+
+The Worker Role is used to do everything related to crawling and adding content to the tables, queues, and lists. This is done by various methods that the Worker Role continuously loops through. The first method is reading a robot.txt message when a message exists in the robot queue. The Worker Role reads the robot.txt file to add sitemaps and urls to the appropriate queues. Furthermore, the second method is reading a XML file when a message exists in the sitemap queue. I used XElement for the Worker Role to read the items in a XML file to add messages to either the sitemap queue or the url queue. Once the Worker Role reads through all sitemaps, it moves on to the third method, crawling. To crawl the entire CNN and Bleacherreport domain, the Worker Role has to continuously check for new messages in the url queue. Once it reads a message, it begins to parse the url message. To do this, I used HTML Agility Pack to select all the links on a page. Before adding links to the url queue, I check for various edge cases to make sure that the link is on the CNN or Bleacherreport domain. Once all the links on a page is added, I add the title, url, and date published of the page to the url table, meaning that the url has been crawled. The Worker Role continues to read url messages and adding the links on the pages. While doing this, it checks for page status errors and exceptions caught.
+
+The dashboard displays the current status of the Worker Role, the CPU usage, the MB of RAM available, the number of urls crawled, the number of urls in the url table, and the size of the url queue. To display such information, I used jQuery AJAX to request the information to display every 3 seconds. This will allow the dashboard to continuously update the user with relevant information. Also, the aesthetics of the dashboard is done using various HTML and CSS elements.
+
+Lastly, my code for the Web Role and Worker Role is written in C# OOP by setting all my variables to private. Furthermore, I store my table entities in a Class Library to allow the Web Role and Worker Role to access the same classes.

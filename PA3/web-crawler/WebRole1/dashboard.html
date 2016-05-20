@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>CNN Crawler</title>
+	<meta charset="utf-8" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+</head>
+<body>
+    <section>
+        <div class="container">
+            <h1 id="header">CNN Web Crawler Dashboard</h1>
+
+            <button class="control" id="start">START</button>
+            <button class="control" id="stop">STOP</button>
+            <button class="control" id="clear">CLEAR</button>
+
+            <div id="status-title">
+                <p id="status">Control the Worker Role with any button above</p>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4" id="worker-status"></div>
+                <div class="col-md-4" id="cpu"></div>
+                <div class="col-md-4" id="ram"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4" id="index-size"></div>
+                <div class="col-md-4" id="urls-crawled"></div>
+                <div class="col-md-4" id="queue-size"></div>
+            </div>
+            <form>
+                <input type="text" />
+                <button id="search" type="submit" onclick="return false">Search</button>
+                <div id="search-title">
+                    <p id="search-result">Search for a url title above</p>
+                </div>
+            </form>
+
+
+            <div id="lists" class="row">
+                <div class="col-md-6" id="url-list"></div>
+                <div class="col-md-6" id="error-list"></div>
+
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>

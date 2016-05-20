@@ -1,0 +1,17 @@
+DiagnosticsPluginLauncher.exe Information: 0 : [5/20/2016 5:37:27 AM] Emulator config file set to C:\Users\iGuest\Desktop\web-crawler\web-crawler\csx\Debug\roles\WebRole1\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [5/20/2016 5:37:27 AM] DiagnosticsStoreRootPath set to: C:\Users\iGuest\AppData\Local\dftmp\Resources\3aa085be-aec6-4841-86f9-47563c097d6b
+DiagnosticsPluginLauncher.exe Information: 0 : [5/20/2016 5:37:27 AM] Loading config file: C:\Users\iGuest\Desktop\web-crawler\web-crawler\csx\Debug\roles\WebRole1\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [5/20/2016 5:37:27 AM] Config file to read: C:\Users\iGuest\Desktop\web-crawler\web-crawler\csx\Debug\roles\WebRole1\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [5/20/2016 5:37:27 AM] Checking VM Type
+DiagnosticsPluginLauncher.exe Information: 0 : [5/20/2016 5:37:27 AM] Emulator config file set to C:\Users\iGuest\Desktop\web-crawler\web-crawler\csx\Debug\roles\WebRole1\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [5/20/2016 5:37:27 AM] Extension set to Emulator Mode
+DiagnosticsPluginLauncher.exe Information: 0 : [5/20/2016 5:37:27 AM] Reading XML configuration file
+DiagnosticsPluginLauncher.exe Information: 0 : [5/20/2016 5:37:27 AM] Bypassing private config decryption
+DiagnosticsPluginLauncher.exe Information: 0 : [5/20/2016 5:37:27 AM] Stopping the running plugin, if any
+DiagnosticsPluginLauncher.exe Information: 0 : [5/20/2016 5:37:27 AM] No DiagnosticsPlugin is running.
+DiagnosticsPluginLauncher.exe Information: 0 : [5/20/2016 5:37:27 AM] Killing any DiagnosticsPlugin that might remain.
+DiagnosticsPluginLauncher.exe Information: 0 : [5/20/2016 5:37:27 AM] Killing any MonAgentHost that might remain.
+DiagnosticsPluginLauncher.exe Information: 0 : [5/20/2016 5:37:27 AM] Diagnostics plugin stopped successfully
+DiagnosticsPluginLauncher.exe Information: 0 : [5/20/2016 5:37:27 AM] Resetting DiagnosticPlugin
+DiagnosticsPluginLauncher.exe Information: 0 : [5/20/2016 5:38:37 AM] DiagnosticsPlugin launched successfully with new configuration
+DiagnosticsPluginLauncher.exe Information: 0 : [5/20/2016 5:38:37 AM] DiagnosticPlugin exited with code 0

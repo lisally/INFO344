@@ -1,0 +1,125 @@
+﻿body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.col-md-4 {
+    padding-top:30px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    text-align: center;
+    background-color: #2e80ab;
+    border-style: solid;
+    border-color: white;
+    border-left-width: 15px;
+    border-right-width: 15px
+}
+
+.col-md-4 p {
+    color: white; 
+}
+
+.col-md-6 {
+    margin-top: 40px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+}
+
+.data {
+    font-weight: normal;
+    font-size:24px;
+}
+
+.list-item {
+    margin-left: 18%;
+}
+
+.control {
+    width: 200px;
+    height: 75px;
+    border: 0px;
+
+}
+
+#start {
+    background-color: #339933;
+    color: white;
+    margin-top: 30px;
+    margin-left: 24%;
+    margin-right: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#stop {
+    background-color: #b30000;
+    color: white;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+#clear {
+    background-color: #ffd11a;
+    color: white;
+    font-weight: bold;
+}
+
+input {
+    width: 750px;
+    height: 40px;
+}
+
+
+#search {
+    height: 40px;
+    width: 100px;
+    background-color: #339933;
+    color: white;
+    font-weight: bold;
+    border: 0px;
+}
+
+form {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#search-title {
+    margin-top: 30px;
+    height: 50px
+}
+
+#search-result {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+button {
+    font-size: 24px;
+}
+
+#header {
+    margin-top: 50px;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#status {
+    font-size: 24px;
+    text-align: center;
+}
+
+#lists {
+    margin-top: -30px;
+    
+}
+
+#status-title {
+    margin-top: 20px;
+    height: 34px;
+    
+}
