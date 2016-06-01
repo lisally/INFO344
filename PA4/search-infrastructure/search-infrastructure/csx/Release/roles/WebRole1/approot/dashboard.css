@@ -1,0 +1,164 @@
+﻿body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.col-md-4 {
+    padding-top:30px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    text-align: center;
+    background-color: #4285f4;
+    border-style: solid;
+    border-color: white;
+    border-left-width: 15px;
+    border-right-width: 15px
+}
+
+.col-md-4 p {
+    color: white; 
+}
+
+.col-md-6 {
+    margin-top: 40px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+}
+
+.data {
+    font-weight: normal;
+    font-size:24px;
+}
+
+.list-item {
+    margin-left: 18%;
+}
+
+.control {
+    width: 140px;
+    height: 60px;
+    border: 0px;
+}
+
+#download {
+    background-color: #8c8c8c;
+    color: white;
+    margin-top: 30px;
+    margin-left: 15.3%;
+    margin-right: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#build {
+    background-color: #8c8c8c;
+    color: white;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+#start {
+    background-color: #34a853;
+    color: white;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+#stop {
+    background-color: #ea4335;
+    color: white;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+#clear {
+    background-color: #ffbc05;
+    color: white;
+    font-weight: bold;
+}
+
+#title {
+    font-size: 16px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: #8c8c8c;
+    border-style: solid;
+    border-color: white;
+    border-left-width: 15px;
+    border-right-width: 15px;
+    color: white;
+}
+
+#count {
+    font-size: 16px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: #8c8c8c;
+    border-style: solid;
+    border-color: white;
+    border-left-width: 15px;
+    border-right-width: 15px;
+    color: white;
+}
+
+input {
+    width: 750px;
+    height: 40px;
+}
+
+
+#search {
+    height: 40px;
+    width: 100px;
+    background-color: #339933;
+    color: white;
+    font-weight: bold;
+    border: 0px;
+}
+
+form {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#search-title {
+    margin-top: 30px;
+    height: 50px
+}
+
+#search-result {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+button {
+    font-size: 24px;
+}
+
+#header {
+    margin-top: 50px;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#status {
+    font-size: 24px;
+    text-align: center;
+}
+
+#lists {
+    margin-top: -30px;
+    
+}
+
+#status-title {
+    margin-top: 20px;
+    height: 24px;
+    
+}

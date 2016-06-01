@@ -1,0 +1,171 @@
+﻿body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+#logo {
+    padding-top: 50px;
+    padding-bottom: 10px;
+    padding-left: 188px;
+}
+
+#search {
+    width: 500px;
+    height: 31px;
+    box-shadow: none !important;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: #e5e5e5;
+    margin-left: 100px;
+}
+
+input[type="text"] {
+    font-size: 16px;
+    padding-left: 8px;
+}
+
+#suggestion {
+    border-style: solid;
+    border-width: 1.5px;
+    border-top-color: white;
+    border-left-color: #e5e5e5;
+    border-right-color: #e5e5e5;
+    border-bottom-color: #e5e5e5;
+    width: 500px;
+    margin-left: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0), 0 2px 2px 0 rgba(0, 0, 0, 0.1);
+    float: left;
+    position: absolute !important;
+    top: 242px !important;
+    left: 15px !important;
+    background-color: white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+
+}
+
+#suggestionsItem:hover {
+    background-color: #f1f1f1;
+}
+
+#suggestionsItem {
+    padding-left: 8px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: left;
+}
+
+
+button {
+    height: 30px;
+    width: 75px;
+    background-color: #4285f4;
+    border: none;
+    color: white !important;
+    margin-left: -4px !important;
+}
+
+
+#results {
+    margin-top: 24px;
+    margin-left: 100px;
+}
+
+#resultTitle {
+    font-size: 18px;
+    color: #1a0dab;
+    text-decoration: none;
+}
+
+    #resultTitle:visited {
+        color: #609;
+        text-decoration: none;
+    }
+
+    #resultTitle:hover {
+        text-decoration: underline;
+    }
+
+#resultUrl {
+    font-size: 14px;
+    color: #006621;
+    margin-top: -3px;
+}
+
+#resultDate {
+    font-size: 12px;
+    margin-top: -8px;
+    color: #6a6a6a;
+    margin-bottom: 20px;
+}
+
+#noResult {
+    font-size: 16px;
+}
+
+
+#left {
+    position: absolute !important;
+    top: 0px !important;
+    left: 0px !important;
+    width: 820px;
+}
+
+#right {
+    position: absolute !important;
+    top: 211px !important;
+    left: 850px !important;
+    width: 360px;
+}
+
+#nba {
+    text-align: center;
+    border-style: solid;
+    border-color: #e5e5e5;
+    border-width: 1.5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0), 0 2px 2px 0 rgba(0, 0, 0, 0.1);
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#nbaName {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 4px;
+}
+
+#nbaTeam {
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+table {
+    text-align: center;
+}
+
+.nbaTitle {
+    padding-left: 6px;
+    padding-right: 6px;
+
+}
+
+.nbaStat {
+    padding-left: 1px;
+    padding-right: 1px;
+
+}
+
+
+#ad {
+    position: absolute !important;
+    top: 700px !important;
+    left: 950px !important;
+    width: 100px;
+    
+}
+

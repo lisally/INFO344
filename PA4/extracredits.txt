@@ -1,0 +1,13 @@
+[up to 10pts] Beautiful search results page (styling, photos, etc)
+[10pts] Show body snippet in results page with query words bolded
+[5pts] Learn ranking from user clicks on URLs
+[5pts] Google instant (AJAX, every keystroke in query box => update results page)*
+HYBRID LIST
+
+-----
+
+1. [up to 10pts] Beautiful search results page (styling, photos, etc)
+    To complete this extra credit, I followed Google's design and colors. I used bootstrap's grid system to creates Google's search results on the left and snippets on the right. Also, I used Google's logo to create my own logo "Poodle". Because poodles are dogs and dogs are good at searching. Furthermore, I used various CSS elements to make sure that my search result elements and snippets do not move as the browser size changes, similar to Google's.
+
+2. HYBRID LIST
+    I attempted to create the hybrid list data structure by following CK's advice of storing X amount of titles in a list, and then building a trie, making the list null. However, due to time constraints, I was unable to fully debug the traversal of the Trie when searching. Although there are still some bugs, the ability to store all 7 million page titles is awesome! I hope to fix the bugs and show off this awesome data structure. I ended up writing the hybrid-list code as bugs came up, making the code very messy. 

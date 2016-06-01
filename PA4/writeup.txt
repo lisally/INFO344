@@ -1,0 +1,16 @@
+﻿[70pts] End-to-End experience – results page with URLs from crawler, NBA player stats (when relevant), query suggestion shows up correctly &quickly, dashboard, caching, monetization
+[20pts] Code written in C# – C# best practices!
+[10pts] Works on Azure & AWS, proper use of all infrastructure modules
+(web roles, worker roles, table storage, queue storage, etc)
+
+-----
+
+For the final programming assignment, I put all the previous programming assignments together to build an entire search infrastructure. To do this, I first started with making changes to my PA1 by retrieving only one NBA player's stats through a cross-domain ajax request from my AWS instance. The data was returned in jsonp format, allowing me to work with the data in js. Secondly, I made changes to my PA3 to store the inverted index page titles. Furthermore, I eventually made the most changes to PA2 because I added a LINQ statement to rank the results retrieved by a search through the inverted index table. Also, I also attempted to build the Hybrid-list data structure which enabled me to store all the wikipedia titles to provide a full search experience.
+
+To create the results page, I used my PA2 for users to search while receiving query suggestions. Furthermore, if a user searches a NBA player, a snippet of the NBA player's name, image, team logo, and stats will be displayed. Furthermore, relevant CNN page titles, urls, and date posted will be displayed in the order that the LINQ statement ranks them. Also, to allow quick searching of repeated searches, I used a static dictionary in my Admin.asmx for caching. To implement the caching, I followed CK's advice of storing the caches as a tuple and replacing them if the cache is older than 10 minutes. Another requirement for the assignment was to allow ads on our page. I eventually chose chikita as the ad provider due to Google adsense rejecting my website with multiple attempts.
+
+Another change I made to my PA3 assignment was updating the dashboard with PA2 stats such as last title added and number of titles added. Furthermore, I fixed the error of partition key + row key from my PA3 for searching page titles given a url. Additionally, the crawler from PA3 was not changed much except for the date of the sitemaps being crawled.
+
+Following PA3, this final assignment used web roles, worker roles, table storages, and queue storages from Azure to accomplish the same goals as PA3 did. However, there were additional features such as the inverted index. Due to lack of time, I was unable to implement the Worker Role class and Storage class as advised by CK.
+
+Overall, this assignment felt extremely rewarding once all the pieces were put together. I hope to build on this assignment to show during future interviews. Unfortunately, I was unable to complete a lot of the OOP requirements, however, I hope to do so in the future. Thank you CK and Daniel for a awesome course/quarter!!

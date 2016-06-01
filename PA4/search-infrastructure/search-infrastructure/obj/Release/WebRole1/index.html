@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Poodle</title>
+    <link rel="icon" href="poodle-icon.png">
+    <meta charset="utf-8" />
+    <!-- JQuery AJAX, Stylesheet, Javascript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+</head>
+<body>
+    <div id ="left" class="col-md-8">
+        <div id="searchDiv">
+            <img id="logo" src="poodle-logo.png" />
+            <!--<h1>Google 2.0</h1>-->
+            <input id="search" type="text">
+            <button>Search</button>
+        </div>
+
+        <div id="suggestions"></div>
+        <div id="results"></div>
+
+    </div>
+
+    <div id="right" class="col-md-4">
+    <!--<div id="right">-->
+
+        <!--<div id="nba">-->
+            <!--<table id="nbaTable">-->
+                <!--<tr id="nbaTitleRow"></tr>-->
+                <!--<tr id="nbaStatRow"></tr>-->
+
+            <!--</table>-->
+    
+    </div>
+
+    <div id="ad">
+        <script type="text/javascript">
+  ( function() {
+    if (window.CHITIKA === undefined) { window.CHITIKA = { 'units' : [] }; };
+    var unit = {"calltype":"async[2]","publisher":"lisally","width":160,"height":600,"sid":"Chitika Default","color_site_link":"#1a0dab"};
+    var placement_id = window.CHITIKA.units.length;
+    window.CHITIKA.units.push(unit);
+    document.write('<div id="chitikaAdBlock-' + placement_id + '"></div>');
+}());
+        </script>
+        <script type="text/javascript" src="//cdn.chitika.net/getads.js" async></script>
+    </div>
+</body>
+</html>
+

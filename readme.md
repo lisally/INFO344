@@ -17,6 +17,6 @@
 >GitHub: https://github.com/lisally/INFO344/tree/master/PA3
 
 ##### Programming Assignment 4
->AWS:
+>Azure: http://lisally.cloudapp.net
 <br />
->GitHub:
+>GitHub: https://github.com/lisally/INFO344/tree/master/PA4
